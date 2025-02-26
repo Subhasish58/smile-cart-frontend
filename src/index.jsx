@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify"; // Moved above App
 
 import App from "./App";
+import "./common/i18n";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
