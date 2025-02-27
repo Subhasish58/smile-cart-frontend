@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 import { TooltipWrapper } from "components/commons";
-import { VALID_COUNT_REGEX } from "components/constants";
+import { VALID_COUNT_REGEX } from "components/Constants";
 import useSelectedQuantity from "components/hooks/useSelectedQuantity";
 import { useShowProduct } from "hooks/reactQuery/useProductsApi";
 import { Toastr, Input, Button } from "neetoui";
