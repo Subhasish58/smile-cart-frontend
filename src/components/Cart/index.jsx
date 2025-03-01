@@ -11,7 +11,7 @@ import withTitle from "utils/withTitle";
 import PriceCard from "./PriceCard";
 import ProductCard from "./ProductCard";
 
-import { MRP, OFFER_PRICE } from "../constants";
+import { MRP, OFFER_PRICE } from "../Constants";
 
 const Cart = () => {
   const { t } = useTranslation();
